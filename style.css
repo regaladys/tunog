@@ -1,0 +1,40 @@
+[hidden] {
+    display: none !important;
+  }
+
+body {
+  background-color: rgb(10%,10%,10%);
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+    
+  color:rgb(100%, 99.2%, 81.6%);
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  
+  }
+
+audio {
+  display: block;
+  margin: 0.5rem;
+  padding: 0;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+
+
+div.test {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px yellow solid;
+  background-color: rgb(20, 20, 20);
+}
+
+.notes {
+  font-weight: bold;
+}
